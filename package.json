@@ -1,0 +1,35 @@
+{
+  "name": "xuanhuan",
+  "version": "1.0.0",
+  "description": "modern css library based on flexbox",
+  "main": "src/xuanhuan.scss",
+  "style": "xuanhuan/dist/xuanhuan.min.css",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-clean": "rimraf dist",
+    "build-sass": "node-sass --output-style expanded --source-map true src/xuanhuan.scss dist/xuanhuan.css",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output dist/xuanhuan.css dist/xuanhuan.css",
+    "build-cleancss": "cleancss -o dist/xuanhuan.min.css dist/xuanhuan.css",
+    "watch": "npm run build-sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otfngo/xuanhuan.git"
+  },
+  "keywords": [
+    "xuanhuan"
+  ],
+  "author": "otfngo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otfngo/xuanhuan/issues"
+  },
+  "homepage": "https://github.com/otfngo/xuanhuan#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^6.0.0",
+    "rimraf": "^2.6.2"
+  }
+}

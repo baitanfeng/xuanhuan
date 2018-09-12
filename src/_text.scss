@@ -1,0 +1,46 @@
+// alignment
+.text {
+  &-justify {
+    text-align: justify;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-nowrap {
+    white-space: nowrap;
+  }
+
+  &-truncate {
+    @include text-truncate;
+  }
+}
+
+// transform
+.text {
+  &-lowercase {
+    text-transform: lowercase;
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+
+  &-capitalize {
+    text-transform: capitalize;
+  }
+}
+
+// weight and italics
+.font {
+  &-weight-light {}
+}
