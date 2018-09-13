@@ -22,6 +22,7 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
+// theme-color
 $primary: $blue !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
@@ -30,3 +31,63 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(("primary": $primary,
+"secondary": $secondary,
+"success": $success,
+"info": $info,
+"warning": $warning,
+"danger": $danger,
+"light": $light,
+"dark": $dark),
+$theme-colors);
+
+// opacity
+$opacities: () !default;
+$opacities: map-merge(("0": 0,
+"5": 5,
+"10": 10,
+"15": 15,
+"20": 20,
+"25": 25,
+"30": 30,
+"35": 35,
+"40": 40,
+"45": 45,
+"50": 50,
+"55": 55,
+"60": 60,
+"65": 65,
+"70": 70,
+"75": 75,
+"80": 80,
+"85": 85,
+"90": 90,
+"95": 95,
+"100": 100,
+), $opacities);
+
+// border
+$border-width: 1px !default;
+$border-color: $gray-300 !default;
+$border-radius: 0.25rem !default;
+
+// font
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-xxl: ($font-size-base * 2) !default;
+$font-size-xl: ($font-size-base * 1.5) !default;
+$font-size-lg: ($font-size-base * 1.25) !default;
+$font-size-md: ($font-size-base * 0.875) !default;
+$font-size-sm: ($font-size-base * 0.75) !default;
+$font-size-xs: ($font-size-base * 0.625) !default;
+$font-size-xxs: ($font-size-base * 0.5) !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+
+
+// z-index
+$zindex-fixed: 1030 !default;

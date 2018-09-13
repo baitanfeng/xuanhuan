@@ -25,17 +25,41 @@
   }
 }
 
-// transform
+@each $color,
+$value in $theme-colors {
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
 .text {
-  &-lowercase {
-    text-transform: lowercase;
+  &-white {
+    color: $white;
   }
 
-  &-uppercase {
-    text-transform: uppercase;
+  &-black {
+    color: $black;
+  }
+}
+
+.font-weight {
+  &-light {
+    font-weight: $font-weight-light;
   }
 
-  &-capitalize {
-    text-transform: capitalize;
+  &-normal {
+    font-weight: $font-weight-normal;
   }
+
+  &-bold {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.font-black-50 {
+  color: rgba($black, 0.5);
+}
+
+.font-white-50 {
+  color: rgba($white, 0.5)
 }

@@ -1,4 +1,9 @@
 @import './variables';
 @import './mixins/all';
-@import './text';
+
+@import './background';
+@import './border';
 @import './flex';
+@import './opacity';
+@import './position';
+@import './text';
