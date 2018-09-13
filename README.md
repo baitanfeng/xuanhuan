@@ -1,6 +1,6 @@
 # xuanhuan
 
-xuanhuan is a **modern css library** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
+xuanhuan is a **modern css framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
 ## install
 
@@ -11,7 +11,7 @@ npm install xuanhuan
 ## usage
 
 ```
-import 'xuanhuan/dist/xuanhuan.css'
+import 'xuanhuan/dist/xuanhuan.min.css'
 ```
 
 ## browser support
