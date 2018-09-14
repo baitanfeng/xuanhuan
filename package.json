@@ -11,7 +11,7 @@
     "build-sass": "node-sass --output-style expanded --source-map true scss/xuanhuan.scss dist/xuanhuan.css",
     "build-autoprefix": "postcss --use autoprefixer --map false --output dist/xuanhuan.css dist/xuanhuan.css",
     "build-cleancss": "cleancss -o dist/xuanhuan.min.css dist/xuanhuan.css",
-    "watch": "npm run build-sass -- --watch"
+    "watch": "npm run build-clean && npm run build-sass -- --watch"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,4 @@
-$positions: static,
-relative,
-absolute,
-fixed;
+$positions: static, relative, absolute, fixed;
 
 @each $position in $positions {
   .position-#{$position} {
