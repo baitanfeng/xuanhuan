@@ -86,7 +86,7 @@ $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xxl: ($font-size-base * 2) !default;
 $font-size-xl: ($font-size-base * 1.5) !default;
 $font-size-lg: ($font-size-base * 1.25) !default;
-$font-size-md: ($font-size-base * 0.875) !default;
+$font-size: ($font-size-base * 0.875) !default;
 $font-size-sm: ($font-size-base * 0.75) !default;
 $font-size-xs: ($font-size-base * 0.625) !default;
 $font-size-xxs: ($font-size-base * 0.5) !default;
@@ -95,5 +95,42 @@ $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
 
+// line-height
+$line-height-base: 1.6 !default;
+$line-height-xxl: ($line-height-base * 2) !default;
+$line-height-xl: ($line-height-base * 1.5) !default;
+$line-height-lg: ($line-height-base * 1.25) !default;
+$line-height: ($line-height-base * 1) !default;
+$line-height-sm: ($line-height-base * 0.875) !default;
+$line-height-xs: ($line-height-base * 0.75) !default;
+$line-height-xxs: ($line-height-base * 0.625) !default;
+
+// padding
+$padding-base: 0.5rem !default;
+$padding-xxl: ($padding-base * 8) !default;
+$padding-xl: ($padding-base * 4) !default;
+$padding-lg: ($padding-base * 2) !default;
+$padding: ($padding-base * 1) !default;
+$padding-sm: ($padding-base * 0.5) !default;
+$padding-xs: ($padding-base * 0.25) !default;
+$padding-xxs: ($padding-base * 0.125) !default;
+
+// margin
+$margin-base: 0.5rem !default;
+$margin-xxl: ($margin-base * 8) !default;
+$margin-xl: ($margin-base * 4) !default;
+$margin-lg: ($margin-base * 2) !default;
+$margin: ($margin-base * 1) !default;
+$margin-sm: ($margin-base * 0.5) !default;
+$margin-xs: ($margin-base * 0.25) !default;
+$margin-xxs: ($margin-base * 0.125) !default;
+
 // z-index
 $zindex-fixed: 1030 !default;
+
+// options
+//
+// quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: true !default;

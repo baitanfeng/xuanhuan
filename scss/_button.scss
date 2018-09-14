@@ -1,0 +1,17 @@
+.btn {
+  display: inline-block;
+  font-weight: $font-weight-normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: $border-width solid transparent;
+  outline: none;
+  @include button-size(
+    $padding,
+    $padding,
+    $font-size,
+    $line-height,
+    $border-radius
+  );
+}

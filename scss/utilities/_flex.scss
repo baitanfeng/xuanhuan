@@ -1,10 +1,14 @@
 .flex {
   display: flex;
-
+  &-row-reverse {
+    flex-direction: row-reverse;
+  }
   &-column {
     flex-direction: column;
   }
-
+  &-column-reverse {
+    flex-direction: column-reverse;
+  }
   &-wrap {
     flex-wrap: wrap;
   }
@@ -12,7 +16,6 @@
   &-grow-1 {
     flex-grow: 1;
   }
-
   &-shrink-0 {
     flex-shrink: 0;
   }
