@@ -1,0 +1,25 @@
+@each $size, $length in $spacers {
+  .m-#{$size} {
+    margin: $length;
+  }
+  .mt-#{$size} {
+    margin-top: $length;
+  }
+  .mr-#{$size} {
+    margin-right: $length;
+  }
+  .mb-#{$size} {
+    margin-bottom: $length;
+  }
+  .ml-#{$size} {
+    margin-left: $length;
+  }
+  .mx-#{$size} {
+    margin-left: $length;
+    margin-right: $length;
+  }
+  .my-#{$size} {
+    margin-top: $length;
+    margin-bottom: $length;
+  }
+}

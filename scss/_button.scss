@@ -30,5 +30,25 @@
   color: $link-color;
   background-color: transparent;
 }
-$link-color: theme-color('primary') !default;
-$link-decoration: none !default;
+.btn-lg {
+  @include button-size(
+    $padding-lg,
+    $padding-lg,
+    $font-size-lg,
+    $line-height-lg,
+    $border-radius
+  );
+}
+.btn-sm {
+  @include button-size(
+    $padding-sm,
+    $padding-sm,
+    $font-size-sm,
+    $line-height-sm,
+    $border-radius
+  );
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}

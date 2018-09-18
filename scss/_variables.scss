@@ -125,27 +125,50 @@ $margin-sm: ($margin-base * 0.5) !default;
 $margin-xs: ($margin-base * 0.25) !default;
 $margin-xxs: ($margin-base * 0.125) !default;
 
+// space
+$spacer: 0.5rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    'xxl': (
+      $spacer * 8
+    ),
+    'xl': (
+      $spacer * 4
+    ),
+    'lg': (
+      $spacer * 2
+    ),
+    'n': (
+      $spacer * 1
+    ),
+    'sm': (
+      $spacer * 0.5
+    ),
+    'xs': (
+      $spacer * 0.25
+    ),
+    'xxs': (
+      $spacer * 0.125
+    )
+  ),
+  $spacers
+);
 // z-index
 $zindex-fixed: 1030 !default;
-
 // options
-//
 // quickly modify global styling by enabling or disabling optional features.
 $enable-rounded: true !default;
 $enable-shadows: true !default;
 $enable-gradients: true !default;
-
 // misc
-
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 150 !default;
 $yiq-text-dark: $gray-900 !default;
 $yiq-text-light: $white !default;
-
 // body
 $body-bg: $white !default;
 $body-color: $gray-900 !default;
-
 // link
 $link-color: theme-color('primary') !default;
 $link-decoration: none !default;

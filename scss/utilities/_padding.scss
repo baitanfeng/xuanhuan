@@ -1,0 +1,25 @@
+@each $size, $length in $spacers {
+  .p-#{$size} {
+    padding: $length;
+  }
+  .pt-#{$size} {
+    padding-top: $length;
+  }
+  .pr-#{$size} {
+    padding-right: $length;
+  }
+  .pb-#{$size} {
+    padding-bottom: $length;
+  }
+  .pl-#{$size} {
+    padding-left: $length;
+  }
+  .px-#{$size} {
+    padding-left: $length;
+    padding-right: $length;
+  }
+  .py-#{$size} {
+    padding-top: $length;
+    padding-bottom: $length;
+  }
+}
