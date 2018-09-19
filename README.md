@@ -10,6 +10,12 @@ npm install xuanhuan
 
 ## usage
 
+### importing precompiled sass
+```
+@import '~xuanhuan/scss/xuanhuan';
+```
+
+### importing compiled css
 ```
 import 'xuanhuan/dist/xuanhuan.min.css'
 ```
