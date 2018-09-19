@@ -23,3 +23,13 @@
     margin-bottom: $length;
   }
 }
+
+.m-auto {
+  margin: auto;
+}
+
+@each $prop, $abbrev in (top: t, right: r, bottom: b, left: l) {
+  .m#{$abbrev}-auto {
+    margin-#{$prop}: auto;
+  }
+}

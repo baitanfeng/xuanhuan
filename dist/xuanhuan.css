@@ -30,172 +30,28 @@
   background-color: #343a40;
 }
 
-.bg-white-0 {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.bg-white-5 {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.bg-white-10 {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.bg-white-15 {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.bg-white-20 {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 .bg-white-25 {
   background-color: rgba(255, 255, 255, 0.25);
-}
-
-.bg-white-30 {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.bg-white-35 {
-  background-color: rgba(255, 255, 255, 0.35);
-}
-
-.bg-white-40 {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.bg-white-45 {
-  background-color: rgba(255, 255, 255, 0.45);
 }
 
 .bg-white-50 {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.bg-white-55 {
-  background-color: rgba(255, 255, 255, 0.55);
-}
-
-.bg-white-60 {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-.bg-white-65 {
-  background-color: rgba(255, 255, 255, 0.65);
-}
-
-.bg-white-70 {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
 .bg-white-75 {
   background-color: rgba(255, 255, 255, 0.75);
-}
-
-.bg-white-80 {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.bg-white-85 {
-  background-color: rgba(255, 255, 255, 0.85);
-}
-
-.bg-white-90 {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.bg-white-95 {
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-.bg-white-100 {
-  background-color: white;
-}
-
-.bg-black-0 {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.bg-black-5 {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.bg-black-10 {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.bg-black-15 {
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-.bg-black-20 {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bg-black-25 {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-.bg-black-30 {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.bg-black-35 {
-  background-color: rgba(0, 0, 0, 0.35);
-}
-
-.bg-black-40 {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.bg-black-45 {
-  background-color: rgba(0, 0, 0, 0.45);
-}
-
 .bg-black-50 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.bg-black-55 {
-  background-color: rgba(0, 0, 0, 0.55);
-}
-
-.bg-black-60 {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.bg-black-65 {
-  background-color: rgba(0, 0, 0, 0.65);
-}
-
-.bg-black-70 {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .bg-black-75 {
   background-color: rgba(0, 0, 0, 0.75);
-}
-
-.bg-black-80 {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.bg-black-85 {
-  background-color: rgba(0, 0, 0, 0.85);
-}
-
-.bg-black-90 {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.bg-black-95 {
-  background-color: rgba(0, 0, 0, 0.95);
-}
-
-.bg-black-100 {
-  background-color: black;
 }
 
 .bg-white {
@@ -350,10 +206,6 @@
   display: inline-flex;
 }
 
-.flex {
-  display: flex;
-}
-
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -368,6 +220,14 @@
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
 }
 
 .flex-grow-1 {
@@ -680,88 +540,36 @@
   margin-bottom: 0.0625rem;
 }
 
-.opacity-0 {
-  opacity: 0;
+.m-auto {
+  margin: auto;
 }
 
-.opacity-5 {
-  opacity: 0.05;
+.mt-auto {
+  margin-top: auto;
 }
 
-.opacity-10 {
-  opacity: 0.1;
+.mr-auto {
+  margin-right: auto;
 }
 
-.opacity-15 {
-  opacity: 0.15;
+.mb-auto {
+  margin-bottom: auto;
 }
 
-.opacity-20 {
-  opacity: 0.2;
+.ml-auto {
+  margin-left: auto;
 }
 
 .opacity-25 {
   opacity: 0.25;
 }
 
-.opacity-30 {
-  opacity: 0.3;
-}
-
-.opacity-35 {
-  opacity: 0.35;
-}
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-45 {
-  opacity: 0.45;
-}
-
 .opacity-50 {
   opacity: 0.5;
 }
 
-.opacity-55 {
-  opacity: 0.55;
-}
-
-.opacity-60 {
-  opacity: 0.6;
-}
-
-.opacity-65 {
-  opacity: 0.65;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
 .opacity-75 {
   opacity: 0.75;
-}
-
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-85 {
-  opacity: 0.85;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-95 {
-  opacity: 0.95;
-}
-
-.opacity-100 {
-  opacity: 1;
 }
 
 .p-xxl {
@@ -1088,13 +896,28 @@
   font-weight: 700;
 }
 
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   border: 1px solid transparent;
   outline: none;
   padding: 0.5rem 0.5rem;
@@ -1231,5 +1054,4 @@
   display: block;
   width: 100%;
 }
-
 /*# sourceMappingURL=xuanhuan.css.map */
