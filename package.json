@@ -1,6 +1,6 @@
 {
   "name": "xuanhuan",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Modern CSS framework based on Flexbox",
   "main": "scss/xuanhuan.scss",
   "sass": "scss/xuanhuan.scss",
