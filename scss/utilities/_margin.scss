@@ -1,35 +1,35 @@
 @each $size, $length in $spacers {
-  .m-#{$size} {
+  .margin-#{$size} {
     margin: $length;
   }
-  .mt-#{$size} {
+  .margin-top-#{$size} {
     margin-top: $length;
   }
-  .mr-#{$size} {
+  .margin-right-#{$size} {
     margin-right: $length;
   }
-  .mb-#{$size} {
+  .margin-bottom-#{$size} {
     margin-bottom: $length;
   }
-  .ml-#{$size} {
+  .margin-left-#{$size} {
     margin-left: $length;
   }
-  .mx-#{$size} {
+  .margin-x-#{$size} {
     margin-left: $length;
     margin-right: $length;
   }
-  .my-#{$size} {
+  .margin-y-#{$size} {
     margin-top: $length;
     margin-bottom: $length;
   }
 }
 
-.m-auto {
+.margin-auto {
   margin: auto;
 }
 
-@each $prop, $abbrev in (top: t, right: r, bottom: b, left: l) {
-  .m#{$abbrev}-auto {
+@each $prop, $abbrev in (top: top, right: right, bottom: bottom, left: left) {
+  .margin-#{$abbrev}-auto {
     margin-#{$prop}: auto;
   }
 }

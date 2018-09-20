@@ -45,7 +45,7 @@
 }
 
 // border-radius
-.rounded {
+.border-rounded {
   border-radius: $border-radius;
   &-top {
     border-top-left-radius: $border-radius;
@@ -63,9 +63,6 @@
     border-top-left-radius: $border-radius;
     border-bottom-left-radius: $border-radius;
   }
-}
-
-.rounded {
   &-circle {
     border-radius: 50%;
   }

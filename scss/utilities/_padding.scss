@@ -1,24 +1,24 @@
 @each $size, $length in $spacers {
-  .p-#{$size} {
+  .padding-#{$size} {
     padding: $length;
   }
-  .pt-#{$size} {
+  .padding-top-#{$size} {
     padding-top: $length;
   }
-  .pr-#{$size} {
+  .padding-right-#{$size} {
     padding-right: $length;
   }
-  .pb-#{$size} {
+  .padding-bottom-#{$size} {
     padding-bottom: $length;
   }
-  .pl-#{$size} {
+  .padding-left-#{$size} {
     padding-left: $length;
   }
-  .px-#{$size} {
+  .padding-x-#{$size} {
     padding-left: $length;
     padding-right: $length;
   }
-  .py-#{$size} {
+  .padding-y-#{$size} {
     padding-top: $length;
     padding-bottom: $length;
   }
