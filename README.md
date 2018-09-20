@@ -11,11 +11,19 @@ npm install xuanhuan
 ## usage
 
 ### importing precompiled sass
+
+To enjoy the full potential of xuanhuan and customize it to your needs, use the source files as a part of your project's bundling process.
+
+First, create your own \_custom.scss and use it to override the [built-in custom variables](https://github.com/otfngo/xuanhuan/blob/master/scss/_variables.scss). Then, use your main sass file to import your custom variables, followed by xuanhuan:
+
 ```
 @import '~xuanhuan/scss/xuanhuan';
 ```
 
 ### importing compiled css
+
+Alternatively, you may use xuanhuan's ready-to-use CSS by simply adding this line to your project's entry point:
+
 ```
 import 'xuanhuan/dist/xuanhuan.min.css'
 ```
