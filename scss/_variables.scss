@@ -58,6 +58,21 @@ $opacities: map-merge(
   $opacities
 );
 
+$styles: () !default;
+$styles: map-merge(
+  (
+    'dotted': dotted,
+    'dashed': dashed,
+    'solid': solid,
+    'double': double,
+    'groove': groove,
+    'ridge': ridge,
+    'inset': inset,
+    'outset': outset
+  ),
+  $styles
+);
+
 // position
 $positions: static, relative, absolute, fixed;
 

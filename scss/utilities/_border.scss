@@ -38,6 +38,12 @@
   }
 }
 
+@each $style, $value in $styles {
+  .border-#{$style} {
+    border-style: $value;
+  }
+}
+
 // border-radius
 .rounded {
   border-radius: $border-radius;
