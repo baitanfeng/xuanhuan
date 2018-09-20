@@ -48,6 +48,15 @@
     $border-radius
   );
 }
+.btn-xs {
+  @include button-size(
+    $padding-xs,
+    $padding-xs,
+    $font-size-xs,
+    $line-height-xs,
+    $border-radius
+  );
+}
 .btn-block {
   display: block;
   width: 100%;

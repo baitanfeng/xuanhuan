@@ -140,6 +140,13 @@
   border-radius: 0.25rem;
 }
 
+.btn-xs {
+  padding: 0.125rem 0.125rem;
+  font-size: 0.625rem;
+  line-height: 1.2;
+  border-radius: 0.25rem;
+}
+
 .btn-block {
   display: block;
   width: 100%;
