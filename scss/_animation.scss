@@ -1,0 +1,95 @@
+.animated {
+  animation: $animation-duration;
+  animation-fill-mode: both;
+}
+
+.slide-in-to-left {
+  animation-name: slideInToLeft;
+}
+.slide-in-to-right {
+  animation-name: slideInToRight;
+}
+.slide-in-to-up {
+  animation-name: slideInToUp;
+}
+.slide-in-to-down {
+  animation-name: slideInToDown;
+}
+
+.slide-out-to-left {
+  animation-name: slideOutToLeft;
+}
+.slide-out-to-right {
+  animation-name: slideOutToRight;
+}
+.slide-out-to-up {
+  animation-name: slideOutToUp;
+}
+.slide-out-to-down {
+  animation-name: slideOutToDown;
+}
+
+@keyframes slideInToLeft {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInToRight {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInToUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInToDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideOutToLeft {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes slideOutToRight {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes slideOutToUp {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes slideOutToDown {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
