@@ -1313,6 +1313,18 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 .font-weight-light {
   font-weight: 300;
 }
@@ -1325,15 +1337,31 @@
   font-weight: 700;
 }
 
-.text-lowercase {
-  text-transform: lowercase;
+.font-size-xxl {
+  font-size: 2rem;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
+.font-size-xl {
+  font-size: 1.5rem;
 }
 
-.text-capitalize {
-  text-transform: capitalize;
+.font-size-lg {
+  font-size: 1.25rem;
+}
+
+.font-size-n {
+  font-size: 0.875rem;
+}
+
+.font-size-sm {
+  font-size: 0.75rem;
+}
+
+.font-size-xs {
+  font-size: 0.625rem;
+}
+
+.font-size-xxs {
+  font-size: 0.5rem;
 }
 /*# sourceMappingURL=xuanhuan.css.map */

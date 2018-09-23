@@ -81,6 +81,21 @@ $border-width: 1px !default;
 $border-color: $gray-300 !default;
 $border-radius: 0.25rem !default;
 
+$size: 1rem !default;
+$sizes: () !default;
+$sizes: map-merge(
+  (
+    'xxl': $size * 2,
+    'xl': $size * 1.5,
+    'lg': $size * 1.25,
+    'n': $size * 0.875,
+    'sm': $size * 0.75,
+    'xs': $size * 0.625,
+    'xxs': $size * 0.5
+  ),
+  $sizes
+);
+
 // font
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xxl: ($font-size-base * 2) !default;
