@@ -635,8 +635,16 @@
   flex-wrap: wrap-reverse;
 }
 
-.flex-fill {
-  flex: 1 1 auto;
+.flex-1 {
+  flex: 1;
+}
+
+.flex-auto {
+  flex: auto;
+}
+
+.flex-none {
+  flex: none;
 }
 
 .flex-grow-1 {
@@ -1263,6 +1271,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.text-muted {
+  color: #6c757d;
 }
 
 .text-primary {

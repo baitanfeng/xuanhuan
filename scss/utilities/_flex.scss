@@ -14,8 +14,14 @@
   &-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
-  &-fill {
-    flex: 1 1 auto;
+  &-1 {
+    flex: 1;
+  }
+  &-auto {
+    flex: auto;
+  }
+  &-none {
+    flex: none;
   }
   &-grow-1 {
     flex-grow: 1;
