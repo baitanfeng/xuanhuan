@@ -145,27 +145,13 @@ $spacer: 0.5rem !default;
 $spacers: () !default;
 $spacers: map-merge(
   (
-    'xxl': (
-      $spacer * 8
-    ),
-    'xl': (
-      $spacer * 4
-    ),
-    'lg': (
-      $spacer * 2
-    ),
-    'n': (
-      $spacer * 1
-    ),
-    'sm': (
-      $spacer * 0.5
-    ),
-    'xs': (
-      $spacer * 0.25
-    ),
-    'xxs': (
-      $spacer * 0.125
-    )
+    'xxl': $spacer * 8,
+    'xl': $spacer * 4,
+    'lg': $spacer * 2,
+    'n': $spacer * 1,
+    'sm': $spacer * 0.5,
+    'xs': $spacer * 0.25,
+    'xxs': $spacer * 0.125
   ),
   $spacers
 );
