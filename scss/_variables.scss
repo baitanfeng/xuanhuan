@@ -96,6 +96,21 @@ $sizes: map-merge(
   $sizes
 );
 
+$lineHeight: 1.6 !default;
+$lineHeights: () !default;
+$lineHeights: map-merge(
+  (
+    'xxl': $lineHeight * 2,
+    'xl': $lineHeight * 1.5,
+    'lg': $lineHeight * 1.25,
+    'n': $lineHeight * 1,
+    'sm': $lineHeight * 0.875,
+    'xs': $lineHeight * 0.75,
+    'xxs': $lineHeight * 0.625
+  ),
+  $lineHeights
+);
+
 // font
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xxl: ($font-size-base * 2) !default;

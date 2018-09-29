@@ -80,9 +80,9 @@
   }
 }
 
-@each $size, $value in $sizes {
+@each $lineHeight, $value in $lineHeights {
   .line-height {
-    &-#{$size} {
+    &-#{$lineHeight} {
       line-height: $value;
     }
   }
