@@ -79,3 +79,11 @@
     }
   }
 }
+
+@each $size, $value in $sizes {
+  .line-height {
+    &-#{$size} {
+      line-height: $value;
+    }
+  }
+}

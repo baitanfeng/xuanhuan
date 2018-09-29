@@ -11,7 +11,7 @@
   border: 1px solid transparent;
   outline: none;
   padding: 0.5rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.6;
   border-radius: 0.25rem;
 }
@@ -135,14 +135,14 @@
 
 .btn-sm {
   padding: 0.25rem 0.25rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 0.25rem;
 }
 
 .btn-xs {
   padding: 0.125rem 0.125rem;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   line-height: 1.2;
   border-radius: 0.25rem;
 }
@@ -1370,18 +1370,46 @@
 }
 
 .font-size-n {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .font-size-sm {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 .font-size-xs {
-  font-size: 0.625rem;
+  font-size: 0.75rem;
 }
 
 .font-size-xxs {
-  font-size: 0.5rem;
+  font-size: 0.625rem;
+}
+
+.line-height-xxl {
+  line-height: 2rem;
+}
+
+.line-height-xl {
+  line-height: 1.5rem;
+}
+
+.line-height-lg {
+  line-height: 1.25rem;
+}
+
+.line-height-n {
+  line-height: 1rem;
+}
+
+.line-height-sm {
+  line-height: 0.875rem;
+}
+
+.line-height-xs {
+  line-height: 0.75rem;
+}
+
+.line-height-xxs {
+  line-height: 0.625rem;
 }
 /*# sourceMappingURL=xuanhuan.css.map */
