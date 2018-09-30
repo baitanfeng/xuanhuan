@@ -126,10 +126,31 @@
   background-color: transparent;
 }
 
+.btn-xxl {
+  padding: 4rem 4rem;
+  font-size: 2rem;
+  line-height: 3.2;
+  border-radius: 0.25rem;
+}
+
+.btn-xl {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2.4;
+  border-radius: 0.25rem;
+}
+
 .btn-lg {
   padding: 1rem 1rem;
   font-size: 1.25rem;
   line-height: 2;
+  border-radius: 0.25rem;
+}
+
+.btn-n {
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
   border-radius: 0.25rem;
 }
 
@@ -144,6 +165,13 @@
   padding: 0.125rem 0.125rem;
   font-size: 0.75rem;
   line-height: 1.2;
+  border-radius: 0.25rem;
+}
+
+.btn-xxs {
+  padding: 0.0625rem 0.0625rem;
+  font-size: 0.625rem;
+  line-height: 1;
   border-radius: 0.25rem;
 }
 
