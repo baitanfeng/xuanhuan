@@ -63,10 +63,27 @@
     border-top-left-radius: $border-radius;
     border-bottom-left-radius: $border-radius;
   }
-  &-circle {
-    border-radius: 50%;
-  }
   &-0 {
     border-radius: 0;
+  }
+}
+
+.border-circle {
+  border-radius: 50%;
+  &-top {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  &-right {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  &-bottom {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  &-left {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
   }
 }
