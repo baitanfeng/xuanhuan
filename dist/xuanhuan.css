@@ -923,6 +923,54 @@
   grid-template-columns: auto auto auto auto auto;
 }
 
+.grid-justify-content-start {
+  justify-items: start;
+}
+
+.grid-justify-content-end {
+  justify-content: end;
+}
+
+.grid-justify-content-center {
+  justify-content: center;
+}
+
+.grid-justify-content-between {
+  justify-content: space-between;
+}
+
+.grid-justify-content-around {
+  justify-content: space-around;
+}
+
+.grid-justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.grid-align-content-start {
+  align-content: start;
+}
+
+.grid-align-content-end {
+  align-content: end;
+}
+
+.grid-align-content-center {
+  align-content: center;
+}
+
+.grid-align-content-between {
+  align-content: space-between;
+}
+
+.grid-align-content-around {
+  align-content: space-around;
+}
+
+.grid-align-content-evenly {
+  align-content: space-evenly;
+}
+
 .margin-xxl {
   margin: 4rem;
 }
