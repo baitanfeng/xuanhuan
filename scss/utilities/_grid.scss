@@ -42,3 +42,45 @@
     grid-template-columns: auto auto auto auto auto;
   }
 }
+
+.grid-justify-content {
+  &-start {
+    justify-items: start;
+  }
+  &-end {
+    justify-content: end;
+  }
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+  &-around {
+    justify-content: space-around;
+  }
+  &-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+.grid-align-content {
+  &-start {
+    align-content: start;
+  }
+  &-end {
+    align-content: end;
+  }
+  &-center {
+    align-content: center;
+  }
+  &-between {
+    align-content: space-between;
+  }
+  &-around {
+    align-content: space-around;
+  }
+  &-evenly {
+    align-content: space-evenly;
+  }
+}
