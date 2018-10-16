@@ -804,7 +804,7 @@
 }
 
 .grid-gap-xxl {
-  grid-gap: 4rem 4rem;
+  grid-gap: 4rem;
 }
 
 .grid-row-gap-xxl {
@@ -816,7 +816,7 @@
 }
 
 .grid-gap-xl {
-  grid-gap: 2rem 2rem;
+  grid-gap: 2rem;
 }
 
 .grid-row-gap-xl {
@@ -828,7 +828,7 @@
 }
 
 .grid-gap-lg {
-  grid-gap: 1rem 1rem;
+  grid-gap: 1rem;
 }
 
 .grid-row-gap-lg {
@@ -840,7 +840,7 @@
 }
 
 .grid-gap-n {
-  grid-gap: 0.5rem 0.5rem;
+  grid-gap: 0.5rem;
 }
 
 .grid-row-gap-n {
@@ -852,7 +852,7 @@
 }
 
 .grid-gap-sm {
-  grid-gap: 0.25rem 0.25rem;
+  grid-gap: 0.25rem;
 }
 
 .grid-row-gap-sm {
@@ -864,7 +864,7 @@
 }
 
 .grid-gap-xs {
-  grid-gap: 0.125rem 0.125rem;
+  grid-gap: 0.125rem;
 }
 
 .grid-row-gap-xs {
@@ -876,7 +876,7 @@
 }
 
 .grid-gap-xxs {
-  grid-gap: 0.0625rem 0.0625rem;
+  grid-gap: 0.0625rem;
 }
 
 .grid-row-gap-xxs {
