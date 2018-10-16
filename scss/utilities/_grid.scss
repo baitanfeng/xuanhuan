@@ -1,0 +1,44 @@
+@each $size, $length in $spacers {
+  .grid-gap-#{$size} {
+    grid-gap: $length;
+  }
+  .grid-row-gap-#{$size} {
+    grid-row-gap: $length;
+  }
+  .grid-column-gap-#{$size} {
+    grid-column-gap: $length;
+  }
+}
+
+.grid-auto-flow {
+  &-row {
+    grid-auto-flow: row;
+  }
+  &-column {
+    grid-auto-flow: column;
+  }
+  &-row-dense {
+    grid-auto-flow: row dense;
+  }
+  &-column-dense {
+    grid-auto-flow: column dense;
+  }
+}
+
+.grid-template-columns-count {
+  &-1 {
+    grid-template-columns: auto;
+  }
+  &-2 {
+    grid-template-columns: auto auto;
+  }
+  &-3 {
+    grid-template-columns: auto auto auto;
+  }
+  &-4 {
+    grid-template-columns: auto auto auto auto;
+  }
+  &-5 {
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
