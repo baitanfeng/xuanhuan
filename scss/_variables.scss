@@ -186,11 +186,13 @@ $spacers: map-merge(
 );
 // z-index
 $zindex-fixed: 1030 !default;
+
 // options
 // quickly modify global styling by enabling or disabling optional features.
 $enable-rounded: true !default;
 $enable-shadows: true !default;
 $enable-gradients: true !default;
+
 // misc
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 150 !default;

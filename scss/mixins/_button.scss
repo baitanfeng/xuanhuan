@@ -1,6 +1,7 @@
 @mixin button-variant($background, $border) {
   color: color-yiq($background);
-  @include gradient-bg($background);
+  // @include gradient-bg($background);
+  background-color: $background;
   border-color: $border;
 }
 
