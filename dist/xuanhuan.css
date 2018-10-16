@@ -18,49 +18,49 @@
 
 .btn-primary {
   color: #fff;
-  background: #007bff linear-gradient(180deg, #268fff, #007bff) repeat-x;
+  background-color: #007bff;
   border-color: #007bff;
 }
 
 .btn-secondary {
   color: #fff;
-  background: #6c757d linear-gradient(180deg, #828a91, #6c757d) repeat-x;
+  background-color: #6c757d;
   border-color: #6c757d;
 }
 
 .btn-success {
   color: #fff;
-  background: #28a745 linear-gradient(180deg, #48b461, #28a745) repeat-x;
+  background-color: #28a745;
   border-color: #28a745;
 }
 
 .btn-info {
   color: #fff;
-  background: #17a2b8 linear-gradient(180deg, #3ab0c3, #17a2b8) repeat-x;
+  background-color: #17a2b8;
   border-color: #17a2b8;
 }
 
 .btn-warning {
   color: #212529;
-  background: #ffc107 linear-gradient(180deg, #ffca2c, #ffc107) repeat-x;
+  background-color: #ffc107;
   border-color: #ffc107;
 }
 
 .btn-danger {
   color: #fff;
-  background: #dc3545 linear-gradient(180deg, #e15361, #dc3545) repeat-x;
+  background-color: #dc3545;
   border-color: #dc3545;
 }
 
 .btn-light {
   color: #212529;
-  background: #f8f9fa linear-gradient(180deg, #f9fafb, #f8f9fa) repeat-x;
+  background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
 
 .btn-dark {
   color: #fff;
-  background: #343a40 linear-gradient(180deg, #52585d, #343a40) repeat-x;
+  background-color: #343a40;
   border-color: #343a40;
 }
 
@@ -667,6 +667,10 @@
   display: grid;
 }
 
+.display-inline-grid {
+  display: inline-grid;
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -800,7 +804,7 @@
 }
 
 .grid-gap-xxl {
-  grid-gap: 4rem;
+  grid-gap: 4rem 4rem;
 }
 
 .grid-row-gap-xxl {
@@ -812,7 +816,7 @@
 }
 
 .grid-gap-xl {
-  grid-gap: 2rem;
+  grid-gap: 2rem 2rem;
 }
 
 .grid-row-gap-xl {
@@ -824,7 +828,7 @@
 }
 
 .grid-gap-lg {
-  grid-gap: 1rem;
+  grid-gap: 1rem 1rem;
 }
 
 .grid-row-gap-lg {
@@ -836,7 +840,7 @@
 }
 
 .grid-gap-n {
-  grid-gap: 0.5rem;
+  grid-gap: 0.5rem 0.5rem;
 }
 
 .grid-row-gap-n {
@@ -848,7 +852,7 @@
 }
 
 .grid-gap-sm {
-  grid-gap: 0.25rem;
+  grid-gap: 0.25rem 0.25rem;
 }
 
 .grid-row-gap-sm {
@@ -860,7 +864,7 @@
 }
 
 .grid-gap-xs {
-  grid-gap: 0.125rem;
+  grid-gap: 0.125rem 0.125rem;
 }
 
 .grid-row-gap-xs {
@@ -872,7 +876,7 @@
 }
 
 .grid-gap-xxs {
-  grid-gap: 0.0625rem;
+  grid-gap: 0.0625rem 0.0625rem;
 }
 
 .grid-row-gap-xxs {

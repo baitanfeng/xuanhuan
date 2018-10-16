@@ -1,6 +1,6 @@
 @each $size, $length in $spacers {
   .grid-gap-#{$size} {
-    grid-gap: $length;
+    grid-gap: $length $length;
   }
   .grid-row-gap-#{$size} {
     grid-row-gap: $length;
