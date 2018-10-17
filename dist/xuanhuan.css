@@ -903,24 +903,44 @@
   grid-auto-flow: column dense;
 }
 
-.grid-template-columns-count-1 {
+.grid-template-columns-auto-1 {
   grid-template-columns: auto;
 }
 
-.grid-template-columns-count-2 {
+.grid-template-columns-auto-2 {
   grid-template-columns: auto auto;
 }
 
-.grid-template-columns-count-3 {
+.grid-template-columns-auto-3 {
   grid-template-columns: auto auto auto;
 }
 
-.grid-template-columns-count-4 {
+.grid-template-columns-auto-4 {
   grid-template-columns: auto auto auto auto;
 }
 
-.grid-template-columns-count-5 {
+.grid-template-columns-auto-5 {
   grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-template-columns-fr-1 {
+  grid-template-columns: 1fr;
+}
+
+.grid-template-columns-fr-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-template-columns-fr-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-template-columns-fr-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-template-columns-fr-5 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-justify-content-start {

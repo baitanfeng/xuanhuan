@@ -25,7 +25,7 @@
   }
 }
 
-.grid-template-columns-count {
+.grid-template-columns-auto {
   &-1 {
     grid-template-columns: auto;
   }
@@ -40,6 +40,24 @@
   }
   &-5 {
     grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+.grid-template-columns-fr {
+  &-1 {
+    grid-template-columns: 1fr;
+  }
+  &-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  &-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  &-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  &-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
