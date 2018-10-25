@@ -34,43 +34,38 @@ $dark: $gray-800 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
-  (
-    'primary': $primary,
-    'secondary': $secondary,
-    'success': $success,
-    'info': $info,
-    'warning': $warning,
-    'danger': $danger,
-    'light': $light,
-    'dark': $dark
-  ),
-  $theme-colors
+
+	(
+		'primary': $primary,
+		'secondary': $secondary,
+		'success': $success,
+		'info': $info,
+		'warning': $warning,
+		'danger': $danger,
+		'light': $light,
+		'dark': $dark
+	),
+	$theme-colors
 );
 
 // opacity
 $opacities: () !default;
-$opacities: map-merge(
-  (
-    '25': 25,
-    '50': 50,
-    '75': 75
-  ),
-  $opacities
-);
+$opacities: map-merge( ('25': 25, '50': 50, '75': 75), $opacities);
 
 $styles: () !default;
 $styles: map-merge(
-  (
-    'dotted': dotted,
-    'dashed': dashed,
-    'solid': solid,
-    'double': double,
-    'groove': groove,
-    'ridge': ridge,
-    'inset': inset,
-    'outset': outset
-  ),
-  $styles
+
+	(
+		'dotted': dotted,
+		'dashed': dashed,
+		'solid': solid,
+		'double': double,
+		'groove': groove,
+		'ridge': ridge,
+		'inset': inset,
+		'outset': outset
+	),
+	$styles
 );
 
 // position
@@ -84,45 +79,36 @@ $border-radius: 0.25rem !default;
 $size: 1rem !default;
 $sizes: () !default;
 $sizes: map-merge(
-  (
-    'xxl': $size * 2,
-    'xl': $size * 1.5,
-    'lg': $size * 1.25,
-    'n': $size * 1,
-    'sm': $size * 0.875,
-    'xs': $size * 0.75,
-    'xxs': $size * 0.625
-  ),
-  $sizes
+
+	(
+		'xxl': $size * 2,
+		'xl': $size * 1.5,
+		'lg': $size * 1.25,
+		'n': $size * 1,
+		'sm': $size * 0.875,
+		'xs': $size * 0.75,
+		'xxs': $size * 0.625
+	),
+	$sizes
 );
 
 $scales: () !default;
-$scales: map-merge(
-  (
-    'xxl': 'xxl',
-    'xl': 'xl',
-    'lg': 'lg',
-    'n': 'n',
-    'sm': 'sm',
-    'xs': 'xs',
-    'xxs': 'xxs'
-  ),
-  $scales
-);
+$scales: map-merge( ('xxl': 'xxl', 'xl': 'xl', 'lg': 'lg', 'n': 'n', 'sm': 'sm', 'xs': 'xs', 'xxs': 'xxs'), $scales);
 
 $lineHeight: 1.6 !default;
 $lineHeights: () !default;
 $lineHeights: map-merge(
-  (
-    'xxl': $lineHeight * 2,
-    'xl': $lineHeight * 1.5,
-    'lg': $lineHeight * 1.25,
-    'n': $lineHeight * 1,
-    'sm': $lineHeight * 0.875,
-    'xs': $lineHeight * 0.75,
-    'xxs': $lineHeight * 0.625
-  ),
-  $lineHeights
+
+	(
+		'xxl': $lineHeight * 2,
+		'xl': $lineHeight * 1.5,
+		'lg': $lineHeight * 1.25,
+		'n': $lineHeight * 1,
+		'sm': $lineHeight * 0.875,
+		'xs': $lineHeight * 0.75,
+		'xxs': $lineHeight * 0.625
+	),
+	$lineHeights
 );
 
 // font
@@ -173,16 +159,17 @@ $margin-xxs: ($margin-base * 0.125) !default;
 $spacer: 0.5rem !default;
 $spacers: () !default;
 $spacers: map-merge(
-  (
-    'xxl': $spacer * 8,
-    'xl': $spacer * 4,
-    'lg': $spacer * 2,
-    'n': $spacer * 1,
-    'sm': $spacer * 0.5,
-    'xs': $spacer * 0.25,
-    'xxs': $spacer * 0.125
-  ),
-  $spacers
+
+	(
+		'xxl': $spacer * 8,
+		'xl': $spacer * 4,
+		'lg': $spacer * 2,
+		'n': $spacer * 1,
+		'sm': $spacer * 0.5,
+		'xs': $spacer * 0.25,
+		'xxs': $spacer * 0.125
+	),
+	$spacers
 );
 // z-index
 $zindex-fixed: 1030 !default;

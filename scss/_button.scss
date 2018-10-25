@@ -1,13 +1,13 @@
 .btn {
-  display: inline-block;
-  font-weight: $font-weight-normal;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: $border-width solid transparent;
-  outline: none;
-  @include button-size(
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: $font-weight-normal;
+	white-space: nowrap;
+	user-select: none;
+	border: $border-width solid transparent;
+	outline: none;
+	@include button-size(
     $padding-n,
     $padding-n,
     $font-size-n,
@@ -16,22 +16,22 @@
   );
 }
 @each $color, $value in $theme-colors {
-  .btn-#{$color} {
-    @include button-variant($value, $value);
-  }
+	.btn-#{$color} {
+		@include button-variant($value, $value);
+	}
 }
 @each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    @include button-outline-variant($value);
-  }
+	.btn-outline-#{$color} {
+		@include button-outline-variant($value);
+	}
 }
 .btn-link {
-  font-weight: $font-weight-normal;
-  color: $link-color;
-  background-color: transparent;
+	font-weight: $font-weight-normal;
+	color: $link-color;
+	background-color: transparent;
 }
 .btn-xxl {
-  @include button-size(
+	@include button-size(
     $padding-xxl,
     $padding-xxl,
     $font-size-xxl,
@@ -40,7 +40,7 @@
   );
 }
 .btn-xl {
-  @include button-size(
+	@include button-size(
     $padding-xl,
     $padding-xl,
     $font-size-xl,
@@ -49,7 +49,7 @@
   );
 }
 .btn-lg {
-  @include button-size(
+	@include button-size(
     $padding-lg,
     $padding-lg,
     $font-size-lg,
@@ -58,7 +58,7 @@
   );
 }
 .btn-n {
-  @include button-size(
+	@include button-size(
     $padding-n,
     $padding-n,
     $font-size-n,
@@ -67,7 +67,7 @@
   );
 }
 .btn-sm {
-  @include button-size(
+	@include button-size(
     $padding-sm,
     $padding-sm,
     $font-size-sm,
@@ -76,7 +76,7 @@
   );
 }
 .btn-xs {
-  @include button-size(
+	@include button-size(
     $padding-xs,
     $padding-xs,
     $font-size-xs,
@@ -85,7 +85,7 @@
   );
 }
 .btn-xxs {
-  @include button-size(
+	@include button-size(
     $padding-xxs,
     $padding-xxs,
     $font-size-xxs,
@@ -94,6 +94,6 @@
   );
 }
 .btn-block {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 }

@@ -1,15 +1,14 @@
 @mixin button-variant($background, $border) {
-  color: color-yiq($background);
-  // @include gradient-bg($background);
-  background-color: $background;
-  border-color: $border;
+	color: color-yiq($background);
+	@include gradient-bg($background);
+	border-color: $border;
 }
 
 @mixin button-outline-variant($color) {
-  color: $color;
-  background-color: transparent;
-  background-image: none;
-  border-color: $color;
+	color: $color;
+	background-color: transparent;
+	background-image: none;
+	border-color: $color;
 }
 
 @mixin button-size(
@@ -19,12 +18,12 @@
   $line-height,
   $border-radius
 ) {
-  padding: $padding-y $padding-x;
-  font-size: $font-size;
-  line-height: $line-height;
-  @if $enable-rounded {
-    border-radius: $border-radius;
-  } @else {
-    border-radius: 0;
-  }
+	padding: $padding-y $padding-x;
+	font-size: $font-size;
+	line-height: $line-height;
+	@if $enable-rounded {
+		border-radius: $border-radius;
+	} @else {
+		border-radius: 0;
+	}
 }

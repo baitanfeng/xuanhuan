@@ -1,39 +1,39 @@
 @each $position in $positions {
-  .position-#{$position} {
-    position: $position;
-  }
+	.position-#{$position} {
+		position: $position;
+	}
 }
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: $zindex-fixed;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: $zindex-fixed;
 }
 
 .fixed-bottom {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: $zindex-fixed;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: $zindex-fixed;
 }
 
 .fixed-x {
-  position: fixed;
-  height: 100%;
-  left: 0;
-  right: 0;
-  transform: translate3d(0, 0, 0);
-  z-index: $zindex-fixed;
+	position: fixed;
+	height: 100%;
+	left: 0;
+	right: 0;
+	transform: translate3d(0, 0, 0);
+	z-index: $zindex-fixed;
 }
 
 .fixed-y {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  transform: translate3d(0, 0, 0);
-  z-index: $zindex-fixed;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	transform: translate3d(0, 0, 0);
+	z-index: $zindex-fixed;
 }
