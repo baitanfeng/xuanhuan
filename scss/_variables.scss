@@ -173,6 +173,10 @@ $spacers: map-merge(
 );
 // z-index
 $zindex-fixed: 1030 !default;
+$zindex-dialog: 1040 !default;
+
+// opacity
+$opacity-mask: 0.35 !default;
 
 // options
 // quickly modify global styling by enabling or disabling optional features.
