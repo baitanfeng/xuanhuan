@@ -171,9 +171,13 @@ $spacers: map-merge(
 	),
 	$spacers
 );
+
+// text
+$text-muted: $gray-600 !default;
+
 // z-index
 $zindex-fixed: 1030 !default;
-$zindex-dialog: 1040 !default;
+$zindex-mask: 1040 !default;
 
 // opacity
 $opacity-mask: 0.35 !default;

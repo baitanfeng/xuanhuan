@@ -15,14 +15,14 @@
 	&-center {
 		text-align: center;
 	}
+}
 
-	&-truncate {
-		@include text-truncate;
-	}
+.text-truncate {
+	@include text-truncate;
 }
 
 .text-muted {
-	color: $gray-600;
+	color: $text-muted;
 }
 
 @each $color, $value in $theme-colors {
