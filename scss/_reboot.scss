@@ -67,3 +67,10 @@ a {
 	color: $link-color;
 	text-decoration: $link-decoration;
 }
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder,
+:-ms-input-placeholder {
+	color: $input-placeholder-color;
+}

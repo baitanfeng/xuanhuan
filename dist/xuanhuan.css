@@ -61,6 +61,13 @@ a {
   text-decoration: none;
 }
 
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder,
+:-ms-input-placeholder {
+  color: #6c757d;
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
