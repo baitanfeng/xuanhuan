@@ -1,9 +1,10 @@
+@import './functions';
 @import './variables';
-@import './function';
-@import './mixins/all';
+@import './mixins';
+@import './reboot';
 
 @import './button';
 @import './mask';
 
 @import './animation';
-@import './utilities/all';
+@import './utilities';
