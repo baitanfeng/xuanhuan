@@ -17,57 +17,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-// Remove top margins from headings
-//
-// By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
-// margin for easier control within type scales as it avoids margin collapsing.
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-top: 0;
-	margin-bottom: $headings-margin-bottom;
-}
-
-p {
-	margin-top: 0;
-	margin-bottom: $paragraph-margin-bottom;
-}
-
-b,
-strong {
-	font-weight: bolder; // Add the correct font weight in Chrome, Edge, and Safari
-}
-
-small {
-	font-size: 80%; // Add the correct font size in all browsers
-}
-
-//
-// Prevent `sub` and `sup` elements from affecting the line height in
-// all browsers.
-//
-sub,
-sup {
-	position: relative;
-	font-size: 75%;
-	line-height: 0;
-	vertical-align: baseline;
-}
-sub {
-	bottom: -0.25em;
-}
-sup {
-	top: -0.5em;
-}
-
-a {
-	color: $link-color;
-	text-decoration: $link-decoration;
-}
-
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-moz-placeholder,
