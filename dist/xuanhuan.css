@@ -28,17 +28,13 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: 400;
+  border: 1px solid transparent;
   white-space: nowrap;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  border: 1px solid transparent;
   outline: none;
-  padding: 0.5rem 0.5rem;
-  font-size: 1rem;
-  line-height: 1.6;
-  border-radius: 0.25rem;
 }
 
 .btn-primary {
@@ -146,7 +142,6 @@ body {
 }
 
 .btn-link {
-  font-weight: 400;
   color: #007bff;
   background-color: transparent;
 }
