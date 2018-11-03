@@ -22,36 +22,19 @@
 	color: $link-color;
 	background-color: transparent;
 }
-.btn-xxl {
-	@include button-size(
-    $padding-xxl,
-    $padding-xxl,
-    $font-size-xxl,
-    $line-height-xxl,
-    $border-radius
-  );
-}
-.btn-xl {
-	@include button-size(
-    $padding-xl,
-    $padding-xl,
-    $font-size-xl,
-    $line-height-xl,
-    $border-radius
-  );
-}
+
 .btn-lg {
 	@include button-size(
-    $padding-lg,
+    $padding-lg / 2,
     $padding-lg,
     $font-size-lg,
-    $line-height-lg,
+    $line-height-n,
     $border-radius
   );
 }
 .btn-n {
 	@include button-size(
-    $padding-n,
+    $padding-n / 2,
     $padding-n,
     $font-size-n,
     $line-height-n,
@@ -60,31 +43,18 @@
 }
 .btn-sm {
 	@include button-size(
-    $padding-sm,
+    $padding-sm / 2,
     $padding-sm,
     $font-size-sm,
-    $line-height-sm,
+    $line-height-n,
     $border-radius
   );
 }
-.btn-xs {
-	@include button-size(
-    $padding-xs,
-    $padding-xs,
-    $font-size-xs,
-    $line-height-xs,
-    $border-radius
-  );
+
+.btn-ellipse {
+  border-radius: 100rem;
 }
-.btn-xxs {
-	@include button-size(
-    $padding-xxs,
-    $padding-xxs,
-    $font-size-xxs,
-    $line-height-xxs,
-    $border-radius
-  );
-}
+
 .btn-block {
 	display: block;
 	width: 100%;

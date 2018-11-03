@@ -22,8 +22,12 @@
 	font-size: $font-size;
 	line-height: $line-height;
 	@if $enable-rounded {
-		border-radius: $border-radius;
+    border-radius: $border-radius;
 	} @else {
 		border-radius: 0;
-	}
+  }
+  &.btn-ellipse {
+    padding-left: $padding-x + $padding-y + $font-size * $line-height / 2;
+    padding-right: $padding-x + $padding-y + $font-size * $line-height / 2;
+  }
 }
