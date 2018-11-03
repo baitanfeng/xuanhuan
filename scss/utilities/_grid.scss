@@ -1,12 +1,12 @@
-@each $size, $length in $spacers {
-  .grid-gap-#{$size} {
-    grid-gap: $length;
+@each $spacer, $value in $spacers {
+  .grid-gap-#{$spacer} {
+    grid-gap: $value;
   }
-  .grid-row-gap-#{$size} {
-    grid-row-gap: $length;
+  .grid-row-gap-#{$spacer} {
+    grid-row-gap: $value;
   }
-  .grid-column-gap-#{$size} {
-    grid-column-gap: $length;
+  .grid-column-gap-#{$spacer} {
+    grid-column-gap: $value;
   }
 }
 

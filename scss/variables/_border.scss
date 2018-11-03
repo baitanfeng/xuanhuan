@@ -1,0 +1,18 @@
+$border-width: 1px !default;
+$border-color: $gray-300 !default;
+$border-radius: 0.25rem !default;
+
+$styles: () !default;
+$styles: map-merge(
+	(
+		'dotted': dotted,
+		'dashed': dashed,
+		'solid': solid,
+		'double': double,
+		'groove': groove,
+		'ridge': ridge,
+		'inset': inset,
+		'outset': outset
+	),
+	$styles
+);

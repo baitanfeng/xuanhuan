@@ -1,0 +1,4 @@
+$opacity-mask: 0.5 !default;
+
+$opacities: () !default;
+$opacities: map-merge( ('25': 0.25, '50': 0.5, '75': 0.75), $opacities);

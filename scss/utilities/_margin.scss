@@ -1,26 +1,26 @@
-@each $size, $length in $spacers {
-  .margin-#{$size} {
-    margin: $length;
+@each $spacer, $value in $spacers {
+  .margin-#{$spacer} {
+    margin: $value;
   }
-  .margin-top-#{$size} {
-    margin-top: $length;
+  .margin-top-#{$spacer} {
+    margin-top: $value;
   }
-  .margin-right-#{$size} {
-    margin-right: $length;
+  .margin-right-#{$spacer} {
+    margin-right: $value;
   }
-  .margin-bottom-#{$size} {
-    margin-bottom: $length;
+  .margin-bottom-#{$spacer} {
+    margin-bottom: $value;
   }
-  .margin-left-#{$size} {
-    margin-left: $length;
+  .margin-left-#{$spacer} {
+    margin-left: $value;
   }
-  .margin-x-#{$size} {
-    margin-left: $length;
-    margin-right: $length;
+  .margin-x-#{$spacer} {
+    margin-left: $value;
+    margin-right: $value;
   }
-  .margin-y-#{$size} {
-    margin-top: $length;
-    margin-bottom: $length;
+  .margin-y-#{$spacer} {
+    margin-top: $value;
+    margin-bottom: $value;
   }
 }
 

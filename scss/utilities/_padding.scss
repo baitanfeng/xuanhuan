@@ -1,25 +1,25 @@
-@each $size, $length in $spacers {
-  .padding-#{$size} {
-    padding: $length;
+@each $spacer, $value in $spacers {
+  .padding-#{$spacer} {
+    padding: $value;
   }
-  .padding-top-#{$size} {
-    padding-top: $length;
+  .padding-top-#{$spacer} {
+    padding-top: $value;
   }
-  .padding-right-#{$size} {
-    padding-right: $length;
+  .padding-right-#{$spacer} {
+    padding-right: $value;
   }
-  .padding-bottom-#{$size} {
-    padding-bottom: $length;
+  .padding-bottom-#{$spacer} {
+    padding-bottom: $value;
   }
-  .padding-left-#{$size} {
-    padding-left: $length;
+  .padding-left-#{$spacer} {
+    padding-left: $value;
   }
-  .padding-x-#{$size} {
-    padding-left: $length;
-    padding-right: $length;
+  .padding-x-#{$spacer} {
+    padding-left: $value;
+    padding-right: $value;
   }
-  .padding-y-#{$size} {
-    padding-top: $length;
-    padding-bottom: $length;
+  .padding-y-#{$spacer} {
+    padding-top: $value;
+    padding-bottom: $value;
   }
 }

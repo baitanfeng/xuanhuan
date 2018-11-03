@@ -6,13 +6,13 @@
 
 @each $opacity, $value in $opacities {
   .bg-white-#{$opacity} {
-    background-color: rgba($color: $white, $alpha: $value / 100);
+    background-color: rgba($color: $white, $alpha: $value);
   }
 }
 
 @each $opacity, $value in $opacities {
   .bg-black-#{$opacity} {
-    background-color: rgba($color: $black, $alpha: $value / 100);
+    background-color: rgba($color: $black, $alpha: $value);
   }
 }
 
