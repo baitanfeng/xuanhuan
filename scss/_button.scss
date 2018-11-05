@@ -46,13 +46,23 @@
     $padding-sm / 2,
     $padding-sm,
     $font-size-sm,
-    $line-height-n,
+    $line-height-sm,
+    $border-radius
+  );
+}
+
+.btn-xs {
+	@include button-size(
+    $padding-xs / 2,
+    $padding-xs,
+    $font-size-xs,
+    $line-height-xs,
     $border-radius
   );
 }
 
 .btn-ellipse {
-  border-radius: 100rem;
+	border-radius: 100rem;
 }
 
 .btn-block {

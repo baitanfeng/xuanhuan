@@ -181,13 +181,25 @@ body {
 .btn-sm {
   padding: 0.125rem 0.25rem;
   font-size: 0.875rem;
-  line-height: 1.6;
+  line-height: 1.4;
   border-radius: 0.25rem;
 }
 
 .btn-sm.btn-ellipse {
-  padding-left: 1.075rem;
-  padding-right: 1.075rem;
+  padding-left: 0.9875rem;
+  padding-right: 0.9875rem;
+}
+
+.btn-xs {
+  padding: 0.0625rem 0.125rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  border-radius: 0.25rem;
+}
+
+.btn-xs.btn-ellipse {
+  padding-left: 0.6375rem;
+  padding-right: 0.6375rem;
 }
 
 .btn-ellipse {
