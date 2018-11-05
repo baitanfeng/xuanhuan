@@ -1,6 +1,7 @@
 $size: 1rem !default;
 $sizes: () !default;
 $sizes: map-merge(
+
 	(
 		'xxl': $size * 2,
 		'xl': $size * 1.5,
@@ -22,13 +23,33 @@ $font-size-sm: ($font-size-base * 0.875) !default;
 $font-size-xs: ($font-size-base * 0.75) !default;
 $font-size-xxs: ($font-size-base * 0.625) !default;
 
+$lineHeight: 1.6 !default;
+$lineHeights: () !default;
+$lineHeights: map-merge(
+
+	(
+		'xxl': $lineHeight * 2,
+		'xl': $lineHeight * 1.5,
+		'lg': $lineHeight * 1.25,
+		'n': $lineHeight * 1,
+		'sm': $lineHeight * 0.875,
+		'xs': $lineHeight * 0.75,
+		'xxs': $lineHeight * 0.625
+	),
+	$lineHeights
+);
+
+$line-height-base: 1.6 !default;
+$line-height-xxl: ($line-height-base * 2) !default;
+$line-height-xl: ($line-height-base * 1.5) !default;
+$line-height-lg: ($line-height-base * 1.25) !default;
+$line-height-n: ($line-height-base * 1) !default;
+$line-height-sm: ($line-height-base * 0.875) !default;
+$line-height-xs: ($line-height-base * 0.75) !default;
+$line-height-xxs: ($line-height-base * 0.625) !default;
+
+$text-muted: $gray-600 !default;
+
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
-
-$line-height-base: 1.6 !default;
-$line-height-lg: ($line-height-base * 1.25) !default;
-$line-height-n: ($line-height-base * 1) !default;
-$line-height-sm: ($line-height-base * 0.75) !default;
-
-$text-muted: $gray-600 !default;

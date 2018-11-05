@@ -39,49 +39,57 @@ body {
 
 .btn-primary {
   color: #fff;
-  background-image: radial-gradient(circle, #007bff, #0062cc);
+  background-color: #007bff;
+  background-image: radial-gradient(circle, #007bff, #409cff);
   border-color: #007bff;
 }
 
 .btn-secondary {
   color: #fff;
-  background-image: radial-gradient(circle, #6c757d, #545b62);
+  background-color: #6c757d;
+  background-image: radial-gradient(circle, #6c757d, #91989e);
   border-color: #6c757d;
 }
 
 .btn-success {
   color: #fff;
-  background-image: radial-gradient(circle, #28a745, #1e7e34);
+  background-color: #28a745;
+  background-image: radial-gradient(circle, #28a745, #5ebd74);
   border-color: #28a745;
 }
 
 .btn-info {
   color: #fff;
-  background-image: radial-gradient(circle, #17a2b8, #117a8b);
+  background-color: #17a2b8;
+  background-image: radial-gradient(circle, #17a2b8, #51b9ca);
   border-color: #17a2b8;
 }
 
 .btn-warning {
   color: #212529;
-  background-image: radial-gradient(circle, #ffc107, #d39e00);
+  background-color: #ffc107;
+  background-image: radial-gradient(circle, #ffc107, #ffd145);
   border-color: #ffc107;
 }
 
 .btn-danger {
   color: #fff;
-  background-image: radial-gradient(circle, #dc3545, #bd2130);
+  background-color: #dc3545;
+  background-image: radial-gradient(circle, #dc3545, #e56874);
   border-color: #dc3545;
 }
 
 .btn-light {
   color: #212529;
-  background-image: radial-gradient(circle, #f8f9fa, #dae0e5);
+  background-color: #f8f9fa;
+  background-image: radial-gradient(circle, #f8f9fa, #fafbfb);
   border-color: #f8f9fa;
 }
 
 .btn-dark {
   color: #fff;
-  background-image: radial-gradient(circle, #343a40, #1d2124);
+  background-color: #343a40;
+  background-image: radial-gradient(circle, #343a40, #676b70);
   border-color: #343a40;
 }
 
@@ -714,6 +722,22 @@ body {
 
 .flex-1 {
   flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
 }
 
 .flex-auto {
@@ -1730,5 +1754,33 @@ body {
 
 .font-size-xxs {
   font-size: 0.625rem;
+}
+
+.line-height-xxl {
+  line-height: 3.2;
+}
+
+.line-height-xl {
+  line-height: 2.4;
+}
+
+.line-height-lg {
+  line-height: 2;
+}
+
+.line-height-n {
+  line-height: 1.6;
+}
+
+.line-height-sm {
+  line-height: 1.4;
+}
+
+.line-height-xs {
+  line-height: 1.2;
+}
+
+.line-height-xxs {
+  line-height: 1;
 }
 /*# sourceMappingURL=xuanhuan.css.map */

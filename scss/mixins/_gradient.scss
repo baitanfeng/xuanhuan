@@ -1,6 +1,7 @@
 @mixin gradient-bg($color) {
 	@if $enable-gradients {
-		background-image: radial-gradient(circle, $color, darken($color, 10%));
+		background-color: $color;
+		background-image: radial-gradient(circle, $color, mix($body-bg, $color, 25%));
 	} @else {
 		background-color: $color;
 	}
