@@ -8,12 +8,12 @@
 	user-select: none;
 	outline: none;
 }
-@each $color, $value in $theme-colors {
+@each $color, $value in $colors {
 	.btn-#{$color} {
 		@include button-variant($value, $value);
 	}
 }
-@each $color, $value in $theme-colors {
+@each $color, $value in $colors {
 	.btn-outline-#{$color} {
 		@include button-outline-variant($value);
 	}

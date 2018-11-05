@@ -21,7 +21,6 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-// theme-color
 $primary: $blue !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
@@ -31,8 +30,8 @@ $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
-$theme-colors: () !default;
-$theme-colors: map-merge(
+$colors: () !default;
+$colors: map-merge(
 	(
 		'primary': $primary,
 		'secondary': $secondary,
@@ -41,9 +40,11 @@ $theme-colors: map-merge(
 		'warning': $warning,
 		'danger': $danger,
 		'light': $light,
-		'dark': $dark
+		'dark': $dark,
+		'white': $white,
+		'black': $black
 	),
-	$theme-colors
+	$colors
 );
 
 // image dimension

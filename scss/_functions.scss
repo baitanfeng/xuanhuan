@@ -14,5 +14,5 @@
 }
 
 @function theme-color($key: 'primary') {
-	@return map-get($theme-colors, $key);
+	@return map-get($colors, $key);
 }
