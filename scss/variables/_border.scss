@@ -1,6 +1,21 @@
 $border-width: 1px !default;
+$border-style: solid !default;
 $border-color: $gray-300 !default;
 $border-radius: 0.25rem !default;
+
+$widths: () !default;
+$widths:  map-merge(
+	(
+		'xxl': 12px,
+		'xl': 10px,
+		'lg': 8px,
+		'n': 6px,
+		'sm': 4px,
+		'xs': 2px,
+		'xxs': 1px
+	),
+	$widths
+);
 
 $styles: () !default;
 $styles: map-merge(
@@ -15,4 +30,18 @@ $styles: map-merge(
 		'outset': outset
 	),
 	$styles
+);
+
+$radiuses: () !default;
+$radiuses: map-merge(
+	(
+		'xxl': 24px,
+		'xl': 16px,
+		'lg': 12px,
+		'n': 8px,
+		'sm': 6px,
+		'xs': 4px,
+		'xxs': 2px
+	),
+	$radiuses
 );

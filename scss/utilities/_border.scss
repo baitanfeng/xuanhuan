@@ -1,16 +1,16 @@
 .border {
-	border: $border-width solid $border-color;
+	border: $border-width $border-style $border-color;
 	&-top {
-		border-top: $border-width solid $border-color;
+		border-top: $border-width $border-style $border-color;
 	}
 	&-right {
-		border-right: $border-width solid $border-color;
+		border-right: $border-width $border-style $border-color;
 	}
 	&-bottom {
-		border-bottom: $border-width solid $border-color;
+		border-bottom: $border-width $border-style $border-color;
 	}
 	&-left {
-		border-left: $border-width solid $border-color;
+		border-left: $border-width $border-style $border-color;
 	}
 }
 
@@ -32,15 +32,43 @@
 	}
 }
 
-@each $color, $value in $colors {
-	.border-#{$color} {
-		border-color: $value;
+@each $width, $value in $widths {
+	.border-#{$width} {
+		border-width: $value;
 	}
 }
 
 @each $style, $value in $styles {
 	.border-#{$style} {
 		border-style: $value;
+	}
+}
+
+@each $color, $value in $colors {
+	.border-#{$color} {
+		border-color: $value;
+	}
+}
+
+@each $radius, $value in $radiuses {
+	.border-radius-#{$radius} {
+		border-radius: $value;
+	}
+	.border-top-radius-#{$radius} {
+		border-top-left-radius: $value;
+		border-top-right-radius: $value;
+	}
+	.border-right-radius-#{$radius} {
+		border-top-right-radius: $value;
+		border-bottom-right-radius: $value;
+	}
+	.border-bottom-radius-#{$radius} {
+		border-bottom-left-radius: $value;
+		border-bottom-right-radius: $value;
+	}
+	.border-left-radius-#{$radius} {
+		border-top-left-radius: $value;
+		border-bottom-left-radius: $value;
 	}
 }
 
@@ -85,5 +113,25 @@
 	&-left {
 		border-top-left-radius: 50%;
 		border-bottom-left-radius: 50%;
+	}
+}
+
+.border-ellipse {
+	border-radius: 100rem;
+	&-top {
+		border-top-left-radius: 100rem;
+		border-top-right-radius: 100rem;
+	}
+	&-right {
+		border-top-right-radius: 100rem;
+		border-bottom-right-radius: 100rem;
+	}
+	&-bottom {
+		border-bottom-left-radius: 100rem;
+		border-bottom-right-radius: 100rem;
+	}
+	&-left {
+		border-top-left-radius: 100rem;
+		border-bottom-left-radius: 100rem;
 	}
 }
