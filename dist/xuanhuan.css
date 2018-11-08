@@ -2070,6 +2070,18 @@ body {
   text-transform: capitalize;
 }
 
+.word-break-all {
+  word-break: break-all;
+}
+
+.word-keep-all {
+  word-break: keep-all;
+}
+
+.word-break-word {
+  word-break: break-word;
+}
+
 .font-weight-light {
   font-weight: 300;
 }
