@@ -1138,6 +1138,32 @@ body {
   align-self: stretch;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.clear-float-left {
+  clear: left;
+}
+
+.clear-float-right {
+  clear: right;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
 .grid-gap-xxl {
   grid-gap: 4rem;
 }
