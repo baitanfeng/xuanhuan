@@ -303,6 +303,16 @@ body {
   width: 100%;
 }
 
+.input {
+  display: inline-flex;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+}
+
 .mask {
   position: fixed;
   top: 0;
@@ -1628,6 +1638,21 @@ body {
 
 .list-style-none {
   list-style: none;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.user-select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
 }
 
 .object-fit-fill {
