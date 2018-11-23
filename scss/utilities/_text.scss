@@ -25,10 +25,17 @@
 	color: $text-muted;
 }
 
+.hover-muted:hover {
+  color: $text-muted;
+}
+
 @each $color, $value in $colors {
 	.text-#{$color} {
 		color: $value;
-	}
+  }
+  .hover-#{$color}:hover {
+    color: $value;
+  }
 }
 
 @each $opacity, $value in $opacities {

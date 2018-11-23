@@ -2065,7 +2065,15 @@ body {
   color: #6c757d;
 }
 
+.hover-muted:hover {
+  color: #6c757d;
+}
+
 .text-primary {
+  color: #007bff;
+}
+
+.hover-primary:hover {
   color: #007bff;
 }
 
@@ -2073,7 +2081,15 @@ body {
   color: #6c757d;
 }
 
+.hover-secondary:hover {
+  color: #6c757d;
+}
+
 .text-success {
+  color: #28a745;
+}
+
+.hover-success:hover {
   color: #28a745;
 }
 
@@ -2081,7 +2097,15 @@ body {
   color: #17a2b8;
 }
 
+.hover-info:hover {
+  color: #17a2b8;
+}
+
 .text-warning {
+  color: #ffc107;
+}
+
+.hover-warning:hover {
   color: #ffc107;
 }
 
@@ -2089,7 +2113,15 @@ body {
   color: #dc3545;
 }
 
+.hover-danger:hover {
+  color: #dc3545;
+}
+
 .text-light {
+  color: #f8f9fa;
+}
+
+.hover-light:hover {
   color: #f8f9fa;
 }
 
@@ -2097,7 +2129,15 @@ body {
   color: #343a40;
 }
 
+.hover-dark:hover {
+  color: #343a40;
+}
+
 .text-white {
+  color: #fff;
+}
+
+.hover-white:hover {
   color: #fff;
 }
 
@@ -2105,7 +2145,15 @@ body {
   color: #000;
 }
 
+.hover-black:hover {
+  color: #000;
+}
+
 .text-transparent {
+  color: transparent;
+}
+
+.hover-transparent:hover {
   color: transparent;
 }
 
