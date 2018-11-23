@@ -1,3 +1,33 @@
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  .btn-link {
+    margin-bottom: $margin-n;
+    margin-right: $margin-n;
+  }
+  .btn-lg {
+    margin-bottom: $margin-lg;
+    margin-right: $margin-lg;
+  }
+  .btn-n {
+    margin-bottom: $margin-n;
+    margin-right: $margin-n;
+  }
+  .btn-sm {
+    margin-bottom: $margin-sm;
+    margin-right: $margin-sm;
+  }
+  .btn-xs {
+    margin-bottom: $margin-xs;
+    margin-right: $margin-xs;
+  }
+  .btn:last-child {
+    margin-right: 0;
+  }
+}
+
 .btn {
 	display: inline-flex;
 	justify-content: center;
@@ -31,6 +61,10 @@
     $line-height-n,
     $border-radius
   );
+  &.border-ellipse {
+    padding-left: $padding-lg * 2;
+    padding-right: $padding-lg * 2;
+  }
 }
 .btn-n {
 	@include button-size(
@@ -40,6 +74,10 @@
     $line-height-n,
     $border-radius
   );
+  &.border-ellipse {
+    padding-left: $padding-n * 2;
+    padding-right: $padding-n * 2;
+  }
 }
 .btn-sm {
 	@include button-size(
@@ -49,6 +87,10 @@
     $line-height-sm,
     $border-radius
   );
+  &.border-ellipse {
+    padding-left: $padding-sm * 2;
+    padding-right: $padding-sm * 2;
+  }
 }
 
 .btn-xs {
@@ -59,10 +101,10 @@
     $line-height-xs,
     $border-radius
   );
-}
-
-.btn-ellipse {
-	border-radius: 100rem;
+  &.border-ellipse {
+    padding-left: $padding-xs * 2;
+    padding-right: $padding-xs * 2;
+  }
 }
 
 .btn-block {
