@@ -4,24 +4,24 @@
   justify-content: flex-start;
   align-items: center;
   .btn-link {
-    margin-bottom: $margin-n;
-    margin-right: $margin-n;
+    margin-bottom: $margin-n * 2;
+    margin-right: $margin-n * 2;
   }
   .btn-lg {
-    margin-bottom: $margin-lg;
-    margin-right: $margin-lg;
+    margin-bottom: $margin-lg * 2;
+    margin-right: $margin-lg * 2;
   }
   .btn-n {
-    margin-bottom: $margin-n;
-    margin-right: $margin-n;
+    margin-bottom: $margin-n * 2;
+    margin-right: $margin-n * 2;
   }
   .btn-sm {
-    margin-bottom: $margin-sm;
-    margin-right: $margin-sm;
+    margin-bottom: $margin-sm * 2;
+    margin-right: $margin-sm * 2;
   }
   .btn-xs {
-    margin-bottom: $margin-xs;
-    margin-right: $margin-xs;
+    margin-bottom: $margin-xs * 2;
+    margin-right: $margin-xs * 2;
   }
   .btn:last-child {
     margin-right: 0;

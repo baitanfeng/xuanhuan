@@ -81,28 +81,28 @@ body {
 }
 
 .btns .btn-link {
-  margin-bottom: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.btns .btn-lg {
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
 
+.btns .btn-lg {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
 .btns .btn-n {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.btns .btn-sm {
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.btns .btn-sm {
+.btns .btn-xs {
   margin-bottom: 0.25rem;
   margin-right: 0.25rem;
-}
-
-.btns .btn-xs {
-  margin-bottom: 0.125rem;
-  margin-right: 0.125rem;
 }
 
 .btns .btn:last-child {
