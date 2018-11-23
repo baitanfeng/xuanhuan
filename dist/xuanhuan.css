@@ -2075,6 +2075,7 @@ body {
 
 .hover-primary:hover {
   color: #007bff;
+  cursor: pointer;
 }
 
 .text-secondary {
@@ -2083,6 +2084,7 @@ body {
 
 .hover-secondary:hover {
   color: #6c757d;
+  cursor: pointer;
 }
 
 .text-success {
@@ -2091,6 +2093,7 @@ body {
 
 .hover-success:hover {
   color: #28a745;
+  cursor: pointer;
 }
 
 .text-info {
@@ -2099,6 +2102,7 @@ body {
 
 .hover-info:hover {
   color: #17a2b8;
+  cursor: pointer;
 }
 
 .text-warning {
@@ -2107,6 +2111,7 @@ body {
 
 .hover-warning:hover {
   color: #ffc107;
+  cursor: pointer;
 }
 
 .text-danger {
@@ -2115,6 +2120,7 @@ body {
 
 .hover-danger:hover {
   color: #dc3545;
+  cursor: pointer;
 }
 
 .text-light {
@@ -2123,6 +2129,7 @@ body {
 
 .hover-light:hover {
   color: #f8f9fa;
+  cursor: pointer;
 }
 
 .text-dark {
@@ -2131,6 +2138,7 @@ body {
 
 .hover-dark:hover {
   color: #343a40;
+  cursor: pointer;
 }
 
 .text-white {
@@ -2139,6 +2147,7 @@ body {
 
 .hover-white:hover {
   color: #fff;
+  cursor: pointer;
 }
 
 .text-black {
@@ -2147,6 +2156,7 @@ body {
 
 .hover-black:hover {
   color: #000;
+  cursor: pointer;
 }
 
 .text-transparent {
@@ -2155,6 +2165,7 @@ body {
 
 .hover-transparent:hover {
   color: transparent;
+  cursor: pointer;
 }
 
 .text-white-25 {
@@ -2163,6 +2174,7 @@ body {
 
 .text-black-25 {
   color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .text-white-50 {
@@ -2171,6 +2183,7 @@ body {
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .text-white-75 {
@@ -2179,6 +2192,7 @@ body {
 
 .text-black-75 {
   color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .text-lowercase {
